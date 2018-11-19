@@ -50,17 +50,17 @@ figure {
 
 ::-webkit-selection {
   color: #fcfcfc;
-  background: #66D37E;
+  background: #4BCCCC;
 }
 
 ::-moz-selection {
   color: #fcfcfc;
-  background: #66D37E;
+  background: #4BCCCC;
 }
 
 ::selection {
   color: #fcfcfc;
-  background: #66D37E;
+  background: #4BCCCC;
 }
 
 #fh5co-header {
@@ -340,7 +340,7 @@ figure {
 }
 
 #fh5co-primary-menu > li > ul li.active > a {
-  color: #66D37E !important;
+  color: #4BCCCC !important;
 }
 #fh5co-primary-menu > li > .sf-with-ul:after {
   border: none !important;
@@ -459,7 +459,7 @@ figure {
   background: none;
 }
 #fh5co-primary-menu .fh5co-sub-menu a:hover {
-  color: #66D37E !important;
+  color: #4BCCCC !important;
 }
 
 #fh5co-work-section,
@@ -497,7 +497,7 @@ figure {
   width: 100px;
   margin-left: -50px;
   height: 2px;
-  background: #66D37E;
+  background: #4BCCCC;
 }
 .heading-section h3 {
   font-size: 40px;
@@ -518,7 +518,7 @@ figure {
 }
 .feature-text h3 .number {
   margin-right: 5px;
-  color: #66D37E;
+  color: #4BCCCC;
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
@@ -529,7 +529,7 @@ figure {
 }
 
 .services {
-  background: #66D37E;
+  background: #4BCCCC;
   padding: 40px 20px 20px 20px;
   margin-bottom: 30px;
 }
@@ -579,7 +579,7 @@ figure {
   display: table-cell;
   vertical-align: middle;
   font-size: 40px;
-  color: #66D37E;
+  color: #4BCCCC;
 }
 .feature-left .feature-copy {
   float: right;
@@ -816,7 +816,7 @@ figure {
 
 #fh5co-services .fh5co-number {
   font-size: 30px;
-  color: #66D37E;
+  color: #4BCCCC;
   position: relative;
   padding-top: 10px;
   font-style: italic;
@@ -832,7 +832,7 @@ figure {
   height: 3px;
   top: 0;
   left: 0;
-  background: #66D37E;
+  background: #4BCCCC;
 }
 #fh5co-services .fh5co-icon {
   margin-bottom: 30px;
@@ -851,7 +851,7 @@ figure {
 }
 #fh5co-services .fh5co-icon i {
   font-size: 200px;
-  color: #66D37E;
+  color: #4BCCCC;
 }
 @media screen and (max-width: 768px) {
   #fh5co-services .fh5co-icon i {
@@ -998,7 +998,7 @@ figure {
   color: rgba(0, 0, 0, 0.3);
 }
 .fh5co-blog .blog-text span.comment a i {
-  color: #66D37E;
+  color: #4BCCCC;
   padding-left: 7px;
 }
 .fh5co-blog .blog-text h3 {
@@ -1043,7 +1043,7 @@ figure {
 
 .fh5co-social-icons > a {
   padding: 4px 10px;
-  color: #66D37E;
+  color: #4BCCCC;
 }
 .fh5co-social-icons > a i {
   font-size: 26px;
@@ -1089,7 +1089,7 @@ figure {
 }
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   box-shadow: none;
-  background: #66D37E;
+  background: #4BCCCC;
   color: #fff !important;
 }
 .btn:hover, .btn:active, .btn:focus {
@@ -1162,14 +1162,14 @@ figure {
   color: rgba(255, 255, 255, 0.4);
 }
 #offcanvas-menu ul li a:hover {
-  color: #66D37E;
+  color: #4BCCCC;
 }
 #offcanvas-menu ul li > .fh5co-sub-menu {
   margin-top: 9px;
   padding-left: 20px;
 }
 #offcanvas-menu ul li.active > a {
-  color: #66D37E;
+  color: #4BCCCC;
 }
 #offcanvas-menu ul .fh5co-sub-menu {
   display: block !important;
