@@ -1,0 +1,33 @@
+.img {
+	max-width: 100%;
+	height: auto;
+}
+
+.thumbs a {
+	float: left;
+	width: 25%; /*for images per row*/
+	padding-right: 15px;
+	margin-bottom: 15px;
+	box-sizing: border-box;
+}
+
+.thumbs {
+	margin-right: -15px;
+}
+
+.thumbs img {
+	display: block;
+	transition: all ease-in-out;
+}
+
+.thumbs:hover img {
+	opacity: .6;
+	transform: scale(.92);
+}
+
+.thumbs img:hover {
+	opacity: 1;
+	transform: scale(1);
+}
+
+/* gallery folders */

@@ -19,6 +19,42 @@
 
 	</head>
 	<body>
+
+		<style>
+			.parent img {
+				max-width: 100%;
+				height: auto;
+			}
+
+			.parent {
+			    position: relative;
+			}
+
+			.parent:hover .gallery-overlay {
+			    opacity: 1;
+			    transition: ease-in-out 0.5s;
+			}
+
+			.gallery-overlay h1 {
+			    margin-top: 5%;
+			    color: #fff;
+			}
+
+			.gallery-overlay {
+			    position: absolute;
+			    top: 0;
+			    bottom: 0;
+			    left: 0;
+			    right: 0;
+			    background: rgba(0, 0, 0, 0.5);
+			    text-align: center;
+			    opacity: 0;
+			    color: #fff;
+			    padding:50px;
+			    transition: ease-in-out 0.1s;
+			}
+		</style>
+
 		<div id="fh5co-wrapper">
 		<div id="fh5co-page">
 		<div id="fh5co-header">
@@ -26,7 +62,7 @@
 				<div class="container">
 					<div class="nav-header">
 						<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
-						<h1 id="fh5co-logo"><a href="index.html" >Madiba Bay Youth Cycling Club</a></h1>
+						<h1 id="fh5co-logo"><a href="index.html" >Logo</a></h1>
 						<nav id="fh5co-menu-wrap" role="navigation">
 							<ul class="sf-menu" id="fh5co-primary-menu">
 								<li class="active">
@@ -64,23 +100,124 @@
 		<div id="fh5co-portfolio" >
 			<div class="container">
 				<div class="row text-center">
-					<div class="col-md-4 col-sm-4 animate-box box">
-						<a href="images.html"><img src="images/logo-back.jpg" style="width:100%; margin-bottom:25px;"><p>date</p></a>
+					<ul class="nav nav-tabs" id="myTab" role="tablist">
+						<li class="nav-item">
+							<a class="nav-link active" id="all-tab" data-toggle="tab" href="#all" role="tab" aria-controls="all" aria-selected="true">All</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="road-tab" data-toggle="tab" href="#road" role="tab" aria-controls="road" aria-selected="false">Road</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="mtb-tab" data-toggle="tab" href="#mtb" role="tab" aria-controls="mtb" aria-selected="false">MTB</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="track-tab" data-toggle="tab" href="#track" role="tab" aria-controls="track" aria-selected="false">Track</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="bmx-tab" data-toggle="tab" href="#bmx" role="tab" aria-controls="bmx" aria-selected="false">BMX</a>
+						</li>
+					</ul>
+					<br>
+
+					<div class="tab-content" id="myTabContent">
+					  <div class="tab-pane active" id="all" role="tabpanel" aria-labelledby="all-tab">
+					  	<div class="col-md-4 col-sm-4 animate-box parent">
+						<a href="images.html"><img src="images/logo-back.jpg" style="width:100%; margin-bottom:25px;">
+							<div class="gallery-overlay">
+								<h1 style="color:#fff;">Date</h1>
+							</div>
+						</a>
 					</div>
-					<div class="col-md-4 col-sm-4 animate-box folders">
-						<a href="images.html"><img src="images/logo-back.jpg" style="width:100%; margin-bottom:25px;"><p>date</p></a>
+					<div class="col-md-4 col-sm-4 animate-box parent">
+						<a href="images.html"><img src="images/logo-back.jpg" style="width:100%; margin-bottom:25px;">
+							<div class="gallery-overlay">
+								<h1 style="color:#fff;">Date</h1>
+							</div>
+						</a>
 					</div>
-					<div class="col-md-4 col-sm-4 animate-box folders">
-						<a href="images.html"><img src="images/logo-back.jpg" style="width:100%; margin-bottom:25px;"><p>date</p></a>
+					<div class="col-md-4 col-sm-4 animate-box parent">
+						<a href="images.html"><img src="images/logo-back.jpg" style="width:100%; margin-bottom:25px;">
+							<div class="gallery-overlay">
+								<h1 style="color:#fff;">Date</h1>
+							</div>
+						</a>
 					</div>
-					<div class="col-md-4 col-sm-4 animate-box folders">
-						<a href="images.html"><img src="images/logo-back.jpg" style="width:100%; margin-bottom:25px;"><p>date</p></a>
+					<div class="col-md-4 col-sm-4 animate-box parent">
+						<a href="images.html"><img src="images/logo-back.jpg" style="width:100%; margin-bottom:25px;">
+							<div class="gallery-overlay">
+								<h1 style="color:#fff;">Date</h1>
+							</div>
+						</a>
 					</div>
-					<div class="col-md-4 col-sm-4 animate-box folders">
-						<a href="images.html"><img src="images/logo-back.jpg" style="width:100%; margin-bottom:25px;"><p>date</p></a>
+					<div class="col-md-4 col-sm-4 animate-box parent">
+						<a href="images.html"><img src="images/logo-back.jpg" style="width:100%; margin-bottom:25px;">
+							<div class="gallery-overlay">
+								<h1 style="color:#fff;">Date</h1>
+							</div>
+						</a>
 					</div>
-					<div class="col-md-4 col-sm-4 animate-box folders">
-						<a href="images.html"><img src="images/logo-back.jpg" style="width:100%; margin-bottom:25px;"><p>date</p></a>
+					<div class="col-md-4 col-sm-4 animate-box parent">
+						<a href="images.html"><img src="images/logo-back.jpg" style="width:100%; margin-bottom:25px;">
+							<div class="gallery-overlay">
+								<h1 style="color:#fff;">Date</h1>
+							</div>
+						</a>
+					</div>
+				</div>
+
+					  <div class="tab-pane fade" id="road" role="tabpanel" aria-labelledby="road-tab">
+					  	<div class="col-md-4 col-sm-4 animate-box parent">
+						<a href="images.html"><img src="images/logo-back.jpg" style="width:100%; margin-bottom:25px;">
+							<div class="gallery-overlay">
+								<h1 style="color:#fff;">Date</h1>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4 col-sm-4 animate-box parent">
+						<a href="images.html"><img src="images/logo-back.jpg" style="width:100%; margin-bottom:25px;">
+							<div class="gallery-overlay">
+								<h1 style="color:#fff;">Date</h1>
+							</div>
+						</a>
+					</div>
+				</div>
+
+				<div class="tab-pane fade" id="mtb" role="tabpanel" aria-labelledby="mtb-tab">
+					  	<div class="col-md-4 col-sm-4 animate-box parent">
+						<a href="images.html"><img src="images/logo-back.jpg" style="width:100%; margin-bottom:25px;">
+							<div class="gallery-overlay">
+								<h1 style="color:#fff;">Date</h1>
+							</div>
+						</a>
+					</div>
+				</div>
+
+					  <div class="tab-pane fade" id="track" role="tabpanel" aria-labelledby="track-tab">
+					  	<div class="col-md-4 col-sm-4 animate-box parent">
+						<a href="images.html"><img src="images/logo-back.jpg" style="width:100%; margin-bottom:25px;">
+							<div class="gallery-overlay">
+								<h1 style="color:#fff;">Date</h1>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4 col-sm-4 animate-box parent">
+						<a href="images.html"><img src="images/logo-back.jpg" style="width:100%; margin-bottom:25px;">
+							<div class="gallery-overlay">
+								<h1 style="color:#fff;">Date</h1>
+							</div>
+						</a>
+					</div>
+				</div>
+
+					  <div class="tab-pane fade" id="bmx" role="tabpanel" aria-labelledby="bmx-tab">
+					  	<div class="col-md-4 col-sm-4 animate-box parent">
+						<a href="images.html"><img src="images/logo-back.jpg" style="width:100%; margin-bottom:25px;">
+							<div class="gallery-overlay">
+								<h1 style="color:#fff;">Date</h1>
+							</div>
+						</a>
+					</div>
+				</div>
 					</div>
 				</div>
 			</div>
