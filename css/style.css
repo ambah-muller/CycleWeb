@@ -82,7 +82,7 @@ figure {
 }
 .fh5co-cover.fh5co-hero-2,
 .fh5co-hero.fh5co-hero-2 {
-  height: 600px;
+  height: 500px;
 }
 .fh5co-cover.fh5co-hero-2 .fh5co-overlay,
 .fh5co-hero.fh5co-hero-2 .fh5co-overlay {
@@ -123,7 +123,7 @@ figure {
   opacity: .9;
 }
 .fh5co-cover.fh5co-cover_2 {
-  height: 600px;
+  height: 500px;
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover.fh5co-cover_2 {
@@ -321,9 +321,14 @@ figure {
     text-align: center;
   }
 }
+
+/*nav bar logo etc*/
 #fh5co-logo a {
   color: #fff;
 }
+/*.logo-dark a {
+  color: black;
+}*/
 #fh5co-logo a:hover, #fh5co-logo a:focus {
   color: #fff !important;
 }
