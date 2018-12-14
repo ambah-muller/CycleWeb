@@ -17,17 +17,10 @@
 
 .thumbs img {
 	display: block;
-	transition: all ease-in-out;
-}
-
-.thumbs:hover img {
-	opacity: .6;
-	transform: scale(.92);
 }
 
 .thumbs img:hover {
-	opacity: 1;
-	transform: scale(1);
+	opacity: 0.6;
 }
 
 /* gallery folders */
